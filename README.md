@@ -5,6 +5,7 @@ The mentorship project repo for UBC Quantum Club in 2022. The project is about s
 - Until June 20:
   - We are refreshing the basic in the first 10 days. Many of the following algorithm might be familiar to you. You can find very detailed introduction with the qiskit textbook: https://qiskit.org/textbook/preface.html. specifically for the hidden shift circuit. I suggest you to check section 2 and 3 in the paper I listed there. I am pretty sure you can find lots of video lectures on youtube for most of algorithms listed. I will record some video over the weekend for hidden shift circuit.
   - Searching algorithm:
+    - Deutsch-Jozsa algorithm: https://qiskit.org/textbook/ch-algorithms/deutsch-jozsa.html
     - Bernstein-Vazirani algoirthm: https://qiskit.org/textbook/ch-algorithms/bernstein-vazirani.html
     - Grover's search: https://qiskit.org/textbook/ch-algorithms/grover.html
   - QFT-based algorithms:
