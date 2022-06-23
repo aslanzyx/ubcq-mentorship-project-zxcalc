@@ -37,11 +37,14 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
 - Until June 27:
   - Basics about qubits: https://youtu.be/H6xWOut0hek
   - Stabilizer formalism: https://youtu.be/qrTrcfTewwo
-  - Some practices:
-    - Show `CNOT` and `CZ` are Clifford operations.
-    - What happens if you measure the Bell state `(|00>+|11>)/sqrt(2)` with observable `X` or `Y`? Try to solve this using stabilizer formalism.
-    - Can you tell if a stabilizer state is entangled from its stabilizer generators?
-    - Upon local(single-qubit) Pauli measurement on an entangled stabilizer state, are you able to obtain a deterministic outcome?(deterministic means you obtained a measurement outcome with 100% probability)
+  - Some questions for you to think:
+    1. Show `CNOT` and `CZ` are Clifford gates.
+    2. What operator will you get when propagating a local(single-qubit) Clifford gate bypass a `CNOT` gate?
+    3. What will you get when propagating a local non-Clifford gate bypass a `CNOT` gate?
+    4. What happens if you measure the Bell state `(|00>+|11>)/sqrt(2)` with observable `X` or `Y`? Try to solve this using stabilizer formalism.
+    5. Can you tell if a stabilizer state is entangled from its stabilizer generators?
+    6. Upon local(single-qubit) Pauli measurement on an entangled stabilizer state, are you able to obtain a deterministic outcome?(deterministic means you can sample a measurement outcome with 100% probability)
+    7. Is the probabilities of local Pauli measurement fixed on an entangled stabilizer state?
 - Until July 4:
   - Graph state
   - Local complementation
