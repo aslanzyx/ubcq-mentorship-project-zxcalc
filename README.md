@@ -37,12 +37,17 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
 - Until June 27:
   - Basics about qubits: https://youtu.be/H6xWOut0hek
   - Stabilizer formalism: 
-  - Topological code: 
+  - Some practices:
+    - Show `CNOT` and `CZ` are Clifford operations.
+    - What happens if you measure the Bell state `(|00>+|11>)/sqrt(2)` with observable `X` or `Y`? Try to solve this using stabilizer formalism.
+    - Can you tell if a stabilizer state is entangled from its stabilizer generators?
+    - Upon local(single-qubit) Pauli measurement on an entangled stabilizer state, are you able to obtain a deterministic outcome?(deterministic means you obtained a measurement outcome with 100% probability)
 - Until July 4:
   - Graph state
   - Local complementation
 - Until July 11:
   - Measurement-based quantum computation on graph state
+  - Simulating Pauli measurements on graph state
 - Until July 18:
   - ZX-calculus
   - Graph state in ZX-diagram
