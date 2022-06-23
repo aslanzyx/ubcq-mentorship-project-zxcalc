@@ -22,29 +22,32 @@ We are refreshing the basic in the first 10 days. Many of the following algorith
 For later content about stabilizer formalism, I suggest this class: Fault-tolerant quantum computation offered in 2021. The whole course content has been recorded with slides. Here's the course website: https://phas.ubc.ca/~raussen/Phys523/Phys523.html
 
 # General schedule
-- Until June 20:
-  - Searching algorithm:
-    - Deutsch-Jozsa algorithm: https://qiskit.org/textbook/ch-algorithms/deutsch-jozsa.html
-    - Grover's search: https://qiskit.org/textbook/ch-algorithms/grover.html
-  - QFT-based algorithms:
-    - Quantum Fourier Transformation: https://qiskit.org/textbook/ch-algorithms/quantum-fourier-transform.html
-    - Quantum Phase Estimation: https://qiskit.org/textbook/ch-algorithms/quantum-phase-estimation.html
-    - Shor's algorithm: https://qiskit.org/textbook/ch-algorithms/shor.html
-    - HHL algorithm: https://qiskit.org/textbook/ch-applications/hhl_tutorial.html
-  - Hidden shift problem:
-    - Simon's algorithm: https://qiskit.org/textbook/ch-algorithms/simon.html
-    - Hidden shift circuit: https://arxiv.org/abs/quant-ph/0211140
-- Until June 27:
-  - Basics about qubits: https://youtu.be/H6xWOut0hek
-  - Stabilizer formalism: https://youtu.be/qrTrcfTewwo
-  - Some questions for you to think:
-    1. Show `CNOT` and `CZ` are Clifford gates.
-    2. What operator will you get when propagating a local(single-qubit) Clifford gate bypass a `CNOT` gate?
-    3. What will you get when propagating a local non-Clifford gate bypass a `CNOT` gate?
-    4. What happens if you measure the Bell state `(|00>+|11>)/sqrt(2)` with observable `X` or `Y`? Try to solve this using stabilizer formalism.
-    5. Can you tell if a stabilizer state is entangled from its stabilizer generators?
-    6. Upon local(single-qubit) Pauli measurement on an entangled stabilizer state, are you able to obtain a deterministic outcome?(deterministic means you can sample a measurement outcome with 100% probability)
-    7. Is the probabilities of local Pauli measurement fixed on an entangled stabilizer state?
+## Reviews(optional):
+- Searching algorithm:
+  - Deutsch-Jozsa algorithm: https://qiskit.org/textbook/ch-algorithms/deutsch-jozsa.html
+  - Grover's search: https://qiskit.org/textbook/ch-algorithms/grover.html
+- QFT-based algorithms:
+  - Quantum Fourier Transformation: https://qiskit.org/textbook/ch-algorithms/quantum-fourier-transform.html
+  - Quantum Phase Estimation: https://qiskit.org/textbook/ch-algorithms/quantum-phase-estimation.html
+  - Shor's algorithm: https://qiskit.org/textbook/ch-algorithms/shor.html
+  - HHL algorithm: https://qiskit.org/textbook/ch-applications/hhl_tutorial.html
+- Hidden shift problem:
+  - Simon's algorithm: https://qiskit.org/textbook/ch-algorithms/simon.html
+  - Hidden shift circuit: https://arxiv.org/abs/quant-ph/0211140
+
+## Week 1(Until June 27):
+- Basics about qubits: https://youtu.be/H6xWOut0hek
+- Stabilizer formalism: https://youtu.be/qrTrcfTewwo
+- Some questions for you to think:
+  1. Show `CNOT` and `CZ` are Clifford gates.
+  2. What operator will you get when propagating a local(single-qubit) Clifford gate bypass a `CNOT` gate?
+  3. What will you get when propagating a local non-Clifford gate bypass a `CNOT` gate?
+  4. What happens if you measure the Bell state `(|00>+|11>)/sqrt(2)` with observable `X` or `Y`? Try to solve this using stabilizer formalism.
+  5. Can you tell if a stabilizer state is entangled from its stabilizer generators?
+  6. Upon local(single-qubit) Pauli measurement on an entangled stabilizer state, are you able to obtain a deterministic outcome?(deterministic means you can sample a measurement outcome with 100% probability)
+  7. Is the probabilities of local Pauli measurement fixed on an entangled stabilizer state?
+
+## Remaining tasks
 - Until July 4:
   - Graph state
   - Local complementation
