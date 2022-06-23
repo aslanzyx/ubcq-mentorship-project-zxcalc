@@ -36,7 +36,7 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
     - Hidden shift circuit: https://arxiv.org/abs/quant-ph/0211140
 - Until June 27:
   - Basics about qubits: https://youtu.be/H6xWOut0hek
-  - Stabilizer formalism: 
+  - Stabilizer formalism: https://youtu.be/qrTrcfTewwo
   - Some practices:
     - Show `CNOT` and `CZ` are Clifford operations.
     - What happens if you measure the Bell state `(|00>+|11>)/sqrt(2)` with observable `X` or `Y`? Try to solve this using stabilizer formalism.
