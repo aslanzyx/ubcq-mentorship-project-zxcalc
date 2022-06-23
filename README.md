@@ -35,6 +35,7 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
     - Simon's algorithm: https://qiskit.org/textbook/ch-algorithms/simon.html
     - Hidden shift circuit: https://arxiv.org/abs/quant-ph/0211140
 - Until June 27:
+  - Basics about qubits: https://youtu.be/H6xWOut0hek
   - Stabilizer formalism: 
   - Topological code: 
 - Until July 4:
@@ -47,6 +48,6 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
   - Graph state in ZX-diagram
 - Until July 25:
   - Circuit extraction from ZX-diagram
-- Until July August 1:
+- Until August 1:
   - learn PyZX API
 - TBD later
