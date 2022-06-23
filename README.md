@@ -45,7 +45,7 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
   4. What happens if you measure the Bell state `(|00>+|11>)/sqrt(2)` with observable `X` or `Y`? Try to solve this using stabilizer formalism.
   5. Can you tell if a stabilizer state is entangled from its stabilizer generators?
   6. Upon local Pauli measurement on an entangled stabilizer state, are you able to obtain a deterministic outcome?(deterministic means you can sample a measurement outcome with 100% probability)
-  7. Is the probabilities of local Pauli measurement fixed on an entangled stabilizer state?
+  7. Are the probabilities of local Pauli measurement fixed on an entangled stabilizer state?
 
 ## Remaining tasks
 - Until July 4:
