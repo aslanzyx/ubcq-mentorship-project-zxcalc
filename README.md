@@ -46,14 +46,16 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
   5. Can you tell if a stabilizer state is entangled from its stabilizer generators?
   6. Upon local Pauli measurement on an entangled stabilizer state, are you able to obtain a deterministic outcome?(deterministic means you can sample a measurement outcome with 100% probability)
   7. Are the probabilities of local Pauli measurement fixed on an entangled stabilizer state?
+  
+## Week 3:
+- Graph state & Local complementation: https://youtu.be/L2mnMjGaK2g
+- Measurement-based quantum computation on graph state: in the making
+- Some questions:
+  1. Denote U as the local complementation operator. What is U^2? What is U^dagger? Why does U^dagger change the graph geometry the same way as U?
+  2. How to reduce a projective measurement in X-base to Y-base? What graph trasformations need to be done to simulate an X-base measurement.
+  3. Is U^2 actually a stabilizer operator? (Also this is a hint for Q1)
 
 ## Remaining tasks
-- Until July 4:
-  - Graph state
-  - Local complementation
-- Until July 11:
-  - Measurement-based quantum computation on graph state
-  - Simulating Pauli measurements on graph state
 - Until July 18:
   - ZX-calculus
   - Graph state in ZX-diagram
