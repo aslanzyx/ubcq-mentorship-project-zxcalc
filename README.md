@@ -11,8 +11,10 @@ The idea is to simulate quantum algorithms using a graph-based paradigm: ZX-calc
 2. Perform **fusion** and **add/remove Hadamards** to reduce the ZX-diagram into a **graph state**.
 3. Apply **local complementation** to remove **Clifford operations**
 4. Apply **magic state decomposition** to map some non-Clifford operations to Clifford.
-5. Map the ZX-diagram back to unitary circuit by finding **flow/gflow**.
-6. Another option: use **measurement-based computation**(not covered in this project)
+5. Execute the residual graph state:
+  - The paper's approach: use magic state decomposition.
+  - Another option: Map the ZX-diagram back to unitary circuit by finding **flow/gflow**.
+  - Another option: use **measurement-based computation**(not covered in this project)
 
 ### Here's a quick intro: https://zxcalculus.com/intro.html
 
@@ -35,7 +37,7 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
   - Simon's algorithm: https://qiskit.org/textbook/ch-algorithms/simon.html
   - Hidden shift circuit: https://arxiv.org/abs/quant-ph/0211140
 
-## Week 1(Until June 27):
+## Basics:
 - Basics about qubits: https://youtu.be/H6xWOut0hek
 - Stabilizer formalism: https://youtu.be/qrTrcfTewwo
 - Some questions for you to think:
@@ -47,20 +49,18 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
   6. Upon local Pauli measurement on an entangled stabilizer state, are you able to obtain a deterministic outcome?(deterministic means you can sample a measurement outcome with 100% probability)
   7. Are the probabilities of local Pauli measurement fixed on an entangled stabilizer state?
   
-## Week 3:
+## Graph State & MBQC
 - Graph state & Local complementation: https://youtu.be/L2mnMjGaK2g
-- Measurement-based quantum computation on graph state: in the making
+- Local complementation practices: https://youtu.be/64t8oHuGXxg
+- Measurement-based quantum computation on graph state: https://youtu.be/zT2jw0D96Jw
+- flow condition: in the making
 - Some questions:
   1. Denote U as the local complementation operator. What is U^2? What is U^dagger? Why does U^dagger change the graph geometry the same way as U?
   2. How to reduce a projective measurement in X-base to Y-base? What graph trasformations need to be done to simulate an X-base measurement.
   3. Is U^2 actually a stabilizer operator? (Also this is a hint for Q1)
+  4. What are the local complementation operations required to simulate 2 X-measurement on a pair of qubit sharing an edge. (It's the pivoting operation we introduced in lecture 4, but try to work that out yourself)
+  5. Why can CZ and CNOT be mapped into each others by shifting wires? (hint: derive from a circuit implementation)
+  6. Why can the control and target wire of CNOT be inverted by shifting wires? (hint: derive from a circuit implementation)
+  7. Consider a half-way teleportation circuit, but the first qubit is measured on ZX-plane `cos(t)Z+sin(t)X`. What will happen? What if the first qubit is measured in YZ-plane `cos(t)Y+sin(t)Z`? What does the angle `t` correspond to?
 
-## Remaining tasks
-- Until July 18:
-  - ZX-calculus
-  - Graph state in ZX-diagram
-- Until July 25:
-  - Circuit extraction from ZX-diagram
-- Until August 1:
-  - learn PyZX API
-- TBD later
+## ZX-calculus & BSS decomposistion
