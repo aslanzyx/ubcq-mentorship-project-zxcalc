@@ -1,4 +1,5 @@
 # ubcq-mentorship-project-zxcalc
+
 The mentorship project repo for UBC Quantum Club in 2022. The project is about simulating unitary circuit using ZX-calculus.
 
 # Introduction to the project
@@ -53,7 +54,8 @@ For later content about stabilizer formalism, I suggest this class: Fault-tolera
 - Graph state & Local complementation: https://youtu.be/L2mnMjGaK2g
 - Local complementation practices: https://youtu.be/64t8oHuGXxg
 - Measurement-based quantum computation on graph state: https://youtu.be/zT2jw0D96Jw
-- flow condition: in the making
+- Flow condition: in the making
+- Paper for flow conditions: https://arxiv.org/abs/quant-ph/0702212
 - Some questions:
   1. Denote U as the local complementation operator. What is U^2? What is U^dagger? Why does U^dagger change the graph geometry the same way as U?
   2. How to reduce a projective measurement in X-base to Y-base? What graph trasformations need to be done to simulate an X-base measurement.
