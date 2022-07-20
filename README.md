@@ -13,9 +13,9 @@ The idea is to simulate quantum algorithms using a graph-based paradigm: ZX-calc
 3. Apply **local complementation** to remove **Clifford operations**
 4. Apply **magic state decomposition** to map some non-Clifford operations to Clifford.
 5. Execute the residual graph state:
-  - The paper's approach: use magic state decomposition.
-  - Another option: Map the ZX-diagram back to unitary circuit by finding **flow/gflow**.
-  - Another option: use **measurement-based computation**(not covered in this project)
+  - The paper's approach: use **magic state decomposition**.
+  - Another option: map the ZX-diagram back to unitary circuit by finding **flow/gflow**.
+  - Another option: use **measurement-based computation**
 
 ### Here's a quick intro: https://zxcalculus.com/intro.html
 
